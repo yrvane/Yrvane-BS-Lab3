@@ -1,0 +1,733 @@
+<!-- Copy the starter template then modify it -->
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/background.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.7.1/font/bootstrap-icons.min.css"
+        integrity="sha512-WYaDo1TDjuW+MPatvDarHSfuhFAflHxD87U9RoB4/CSFh24/jzUHfirvuvwGmJq0U7S9ohBXy4Tfmk2UKkp2gA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Workout Family</title>
+</head>
+
+
+<body>
+    
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+            <div class="container">
+
+                <a class="navbar-brand" href="#">Workout Family</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                   
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+    
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#curriculum">Trainings</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#instructors">Our Instructors</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#faq">FAQ</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#testimonial">Subscribtion</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact Us</a>
+                        </li>
+                    </ul>
+                </div> <!-- end div.collapse -->
+            </div> <!-- end div.container-fluid -->
+        </nav>
+
+        
+        <section id="features" class="d-none d-md-block">
+
+            <div id="carouselFeatures" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselFeatures" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1">
+                    </button>
+                    <button type="button" data-bs-target="#carouselFeatures" data-bs-slide-to="1" aria-label="Slide 2">
+                    </button>
+                    <button type="button" data-bs-target="#carouselFeatures" data-bs-slide-to="2" aria-label="Slide 3">
+                    </button>
+                    <!-- Adding one more button for the fourth image -->
+                    <button type="button" data-bs-target="#carouselFeatures" data-bs-slide-to="3" aria-label="Slide 4">
+                    </button>
+                </div> <!-- end div.carousel-indicators -->
+                
+                <div class="carousel-inner">
+              
+                    <div class="carousel-item active">
+                        
+                        <img src="images/Workout4.jpg" class="d-block w-100" alt="...">
+                       
+                        <div class="carousel-caption">
+                            <h5>ٍSuccess Path</h5>
+                            <p>
+                                The members of The Workout Family can take someone who just start to learn to do exercise to an intermediate 
+                                who for improving himself.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="images/Workout1.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption">
+                            <h5>Different Learning Resources</h5>
+                            <p>
+                                Our trainers have differents specialities. We will find the best for you. If wan only online training, 
+                                it could be possible. Although, you can have also outdoor trainings or indoor. According to your trainings. 
+                                Trainers could also teach you at your home. 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/Workout2.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption">
+                            <h5>Big Family</h5>
+                            <p>
+                                This app allows also to people give their impression on the trainings. You can chat between each other. 
+                                This is a big family who share good advice to growing together in fitness. 
+                            </p>
+                        </div>
+                    </div>
+
+                    
+                    <div class="carousel-item">
+                        <img src="images/Workout3.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption">
+                            <h5>Help and Supports</h5>
+                            <p>
+                                Our experienced instructors and mentors are always available for one-to-one assistant
+                                and
+                                feedbacks.
+                                You can talk to your trainer whenever you want. 
+                            </p>
+                        </div>
+                    </div>
+                </div> <!-- end div.carousel-inner -->
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselFeatures"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselFeatures"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div> <!-- end div#carouselFeatures .carousel" -->
+        </section> <!-- end section#features -->
+    </header>
+
+
+    <!-- Home Section -->
+    <section id="home" class="container mt-3  text-white">
+        <div class="d-md-flex py-3 align-items-center" >
+            
+            <article class="text-center text-md-start">
+                <h1>Welcome in the Workout Family</h1>
+                
+                <p class="lead">This Website has for purpose to help people to achieved their trainings with our specialists trainers.
+                    Depending on how much time you want to succeed, you have the opportunity to develop your skills in fitness. Our trainers 
+                    can help you indoor or outdoor according to what you want to train.
+                    You have the possibility to follow the training with your family for example on the weekend. 
+                </p>
+                <p class="lead">
+                    After finishing this program you will be able to keep doing your training by yourself. And you will be able 
+                    to create maybe new exercises for a special part of  your muscles. You can show to members of your family all your progress. 
+                    And then teach them some exercices.
+                </p>
+
+                <button type="button" class="btn btn-dark btn-lg my-2" data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop">
+                    Sign up now!
+                </button>
+            </article> <!-- end article for text -->
+
+           
+
+            <div class="modal fade text-black" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+               
+                <div class="modal-dialog">
+                   
+                    <div class="modal-content">
+                        
+                        <form>
+                             
+            
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="staticBackdropLabel">
+                                    Apply to the Web Development Bootcamp
+                                </h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+
+                            <div class="modal-body">
+                                
+                                <div class="mb-3">
+                                    
+                                    <label for="firstName" class="form-label">
+                                        First Name
+                                    </label>
+                                    
+                                    <input type="text" class="form-control" id="firstName"
+                                        aria-describedby="firstNameHelp">
+                                    
+                                    <div id="firstName" class="form-text">
+                                        Your full name.
+                                    </div>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="lastName" class="form-label">
+                                        Last Name
+                                    </label>
+                                    <input type="text" class="form-control" id="lastName"
+                                        aria-describedby="lastNameHelp">
+                                    <div id="lastName" class="form-text">
+                                        Your full name.
+                                    </div>
+                                </div>
+
+
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp">
+                                    <div id="emailHelp" class="form-text">
+                                        We'll never share your email with anyone
+                                        else.
+                                    </div>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="inputAddress1">Address 1</label>
+                                    <input type="text" class="form-control" id="inputAddress1"
+                                        placeholder="1234 Main St">
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="inputAddress2">Address 2</label>
+                                    <input type="text" class="form-control" id="inputAddress2"
+                                        placeholder="Apartment, studio, or floor">
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="inputCity">City</label>
+                                    <input type="text" class="form-control" id="inputCity">
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="provinceSelect">Province</label>
+                                    <select id="provinceSelect" class="form-select" aria-label="Default select example">
+                                        <option selected>Select your province</option>
+                                        <option value="AB">Alberta</option>
+                                        <option value="BC">British Columbia</option>
+                                        <option value="MB">Manitoba</option>
+                                        <option value="NB">New Brunswick</option>
+                                        <option value="NL">Newfoundland and Labrador</option>
+                                        <option value="NS">Nova Scotia</option>
+                                        <option value="ON">Ontario</option>
+                                        <option value="PE">Prince Edward Island</option>
+                                        <option value="QC">Quebec</option>
+                                        <option value="SK">Saskatchewan</option>
+                                        <option value="NT">Northwest Territories</option>
+                                        <option value="NU">Nunavut</option>
+                                        <option value="YT">Yukon</option>
+                                    </select>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="commentsTextarea" class="form-label">
+                                        Comments
+                                    </label>
+                                    
+                                    <textarea class="form-control" aria-label="Your Message" id="commentsTextarea">
+                                        </textarea>
+                                </div>
+                            </div>
+
+                            
+                            <div class="modal-footer">
+                                
+                                <button type="submit" class="btn btn-primary">
+                                    Submit
+                                </button>
+                                
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                
+                            </div>
+
+
+                        </form>
+                    </div> <!-- end div.modal-content -->
+                </div> <!-- end div.modal-dialog -->
+            </div> <!-- end div.modal -->
+            
+            <img src="images/Workout5.jpg" alt="Female Programmer"
+                class="w-50 img-fluid rounded d-none d-sm-block mx-3">
+        </div> <!-- end div for flex -->
+    </section> <!-- end section#home -->
+
+
+
+
+    <!-- Highlights Section -->
+    <section id="highlights" class="container py-3">
+        
+        <div class="row text-center gap-2">
+            
+            <div class="col-md">
+                
+                <div class="card bg-light bg-gradient">
+                    
+                    <div class="bg-info">
+                        <i class="bi bi-alarm fs-1"></i>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Your schedules</h5>
+                        <p class="card-text">
+                            The trainer will helping you to find the best time to do the workout. He will take in mind your hours of 
+                            work. 
+                        </p>
+                        <!-- formatting the a link a button -->
+                        <a href="#" class="btn btn-info">Check Dates and Times</a>
+                    </div>
+                </div> <!-- end BS div.card-->
+            </div> <!-- end div.col-md -->
+
+            <div class="col-md">
+                <div class="card bg-light bg-gradient">
+                    <div class="bg-info">
+                        <i class="bi bi-pc-display-horizontal fs-1"></i>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">debriefing</h5>
+                        <p class="card-text">
+                            Each 2 weeks you will have a sum up of the 2 last weeks to see your improving and see you what is missing for 
+                            next times.
+                        </p>
+                        <a href="#" class="btn  btn-info">Go somewhere</a>
+                    </div>
+                </div> <!-- end BS div.card-->
+            </div> <!-- end div.col-md -->
+
+            <div class="col-md">
+                <div class="bg-info">
+                    <i class="bi bi-trophy-fill fs-1"></i>
+                </div>
+                <div class="card bg-light bg-gradient">
+                    <div class="card-body">
+                        <h5 class="card-title">Goal Achievement</h5>
+                        <p class="card-text">
+                            At the end of the schedules we hope that you will achieve your goals. Although if not, you wil be able to improving by yourself
+                            because of what you learned with the trainer. 
+                        <a href="#" class="btn btn-info">Go somewhere</a>
+                    </div>
+                </div> <!-- end BS div.card-->
+            </div> <!-- end div.col-md -->
+        </div> <!-- end div.row -->
+    </section> <!-- end section#highlights -->
+
+
+   
+
+    <!-- Instructors Section -->
+    <section id="instructors" class="container text-center">
+        <h2>Our Instructors</h2>
+        <p class="lead text-center">Learn more about our instructors</p>
+        <div class="row">
+            
+            <div class="col-md-6 col-lg-3">
+                
+                <div class="card">
+                   
+                    <img src="images/Trainer1.jpg" class="card-img-top rounded-circle w-50 m-auto m-auto" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Martin Smith</h5>
+                        <p class="card-text">If you are looking for improving to how wear your weight. Here i am.</p>
+                        <a href="#" class="btn btn-secondary">
+                            <i class="bi-linkedin"></i>
+                        </a>
+                        <a href="#" class="btn btn-secondary">
+                            <i class="bi-github"></i>
+                        </a>
+                        <a href="#" class="btn btn-secondary">
+                            <i class="bi-facebook"></i>
+                        </a>
+                        <a href="#" class="btn btn-secondary">
+                            <i class="bi-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="images/Trainer3.jpg" class="card-img-top rounded-circle w-50 m-auto" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Kate Wilson</h5>
+                        <p class="card-text">if you are beginner or even a simple intermediate who want to learn New
+                            things. We can do our best to bring you what is missing.
+                        </p>
+                        <a href="#" class="btn btn-secondary">
+                            <i class="bi-linkedin"></i>
+                        </a>
+                        <a href="#" class="btn btn-secondary">
+                            <i class="bi-github"></i>
+                        </a>
+                        <a href="#" class="btn btn-secondary">
+                            <i class="bi-facebook"></i>
+                        </a>
+                        <a href="#" class="btn btn-secondary">
+                            <i class="bi-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="images/Trainer2.jpg" class="card-img-top rounded-circle w-50 m-auto" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Sam Simpsons</h5>
+                        <p class="card-text">if you have some questions about training, We will be happy 
+                            to respond. 
+                        </p>
+                        <a href="#" class="btn btn-secondary">
+                            <i class="bi-linkedin"></i>
+                        </a>
+                        <a href="#" class="btn btn-secondary">
+                            <i class="bi-github"></i>
+                        </a>
+                        <a href="#" class="btn btn-secondary">
+                            <i class="bi-facebook"></i>
+                        </a>
+                        <a href="#" class="btn btn-secondary">
+                            <i class="bi-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="images/Trainer4.jpg" class="card-img-top rounded-circle w-50 m-auto" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Alexa Chow</h5>
+                        <p class="card-text">Even Fmaily can participate. We have a special program for this case.</p>
+                        <a href="#" class="btn btn-secondary">
+                            <i class="bi-linkedin"></i>
+                        </a>
+                        <a href="#" class="btn btn-secondary">
+                            <i class="bi-github"></i>
+                        </a>
+                        <a href="#" class="btn btn-secondary">
+                            <i class="bi-facebook"></i>
+                        </a>
+                        <a href="#" class="btn btn-secondary">
+                            <i class="bi-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- End div.row -->
+    </section> <!-- end section#instructors -->
+
+    
+    <section id="faq">
+        
+        <div class="container">
+            <h2 class="text-center">Frequently Asked Questions</h2>
+            
+            <div class="accordion" id="accordFAQ">
+
+                <!-- First accordion div item -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            What I will learn?
+                        </button>
+                        
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#accordFAQ">
+                        
+                        <div class="accordion-body">
+                            <p>Make a schedule of what you want to learn for each of trainings</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Second accordion div item -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Should I have any experience before joining this program ?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordFAQ">
+                        <div class="accordion-body">
+                            <p>No need, as this program is designed to make a better version of yourself.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Third accordion div item -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Can I take this program in the weekends only?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordFAQ">
+                        <div class="accordion-body">
+                            <p>Yes plans your trainings on your schedule</p>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- end div.accordion -->
+        </div> <!-- end div.container -->
+    </section> <!-- end section#faq-->
+
+
+    <!-- Students Testimonial -->
+    <section id="testimonial" class="mt-3 container">
+        
+        <div id="carouselTestimonial" class="carousel slide  p-3" data-bs-ride="carousel">
+            
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                   
+                    <img src="images/Subscriber1.jpg"
+                        class="d-block m-auto w-25 rounded-circle p-1 border border-2 border-white" alt="...">
+                    
+                    <div class="lead text-center text-white">
+                        <h5>Andrew Johnson</h5>
+                        <p>One of the best team. They teached me everything i wanted to progress !</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="images/Subscriber2.jpg"
+                        class="d-block m-auto w-25 rounded-circle p-1 border border-2 border-white" alt="...">
+                    <div class="lead text-center text-white">
+                        <h5>Richard mill</h5>
+                        <p>I was a beginner and i found a way to start the fitness with this app.</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="images/Subscriber3.jpg"
+                        class="d-block m-auto w-25 rounded-circle p-1 border border-2 border-white" alt="...">
+                    <div class="lead text-center text-white">
+                        <h5>Henry Paerson</h5>
+                        <p>Sart the program with my family. They are all satisfied</p>
+                    </div>
+                </div>
+            </div> <!-- end div.carousel-inner -->
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselTestimonial"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselTestimonial"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+
+            
+            <div class="text-center">
+                
+                <button type="button" data-bs-target="#carouselTestimonial" data-bs-slide-to="0"
+                    class="active rounded-pill p-2 border" aria-current="true" aria-label="Slide 1">
+                </button>
+
+                <button type="button" data-bs-target="#carouselTestimonial" data-bs-slide-to="1"
+                    class="rounded-pill p-2 border" aria-label="Slide 2">
+                </button>
+
+                <button type="button" data-bs-target="#carouselTestimonial" data-bs-slide-to="2"
+                    class="rounded-pill p-2 border" aria-label="Slide 3">
+                </button>
+            </div>
+        </div> <!-- end div#carouselTestimonial .carousel" -->
+    </section> <!-- end section#testimonial -->
+
+    <!-- Contact Us: -->
+    <section id="contact" class="mt-3 container">
+        <div class="row">
+            <div class="col-md-6">
+                <h2 class="text-center">Get in touch</h2>
+                
+                <form>
+                    
+                    <div class="mb-3">
+                       
+                        <label for="fullName" class="form-label">Full Name</label>
+                        
+                        <input type="text" class="form-control" id="fullName" aria-describedby="fullNameHelp">
+                        
+                        <div id="fullNameHelp" class="form-text">
+                            Write your full name to be used when we contact you.
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="messageTextarea" class="form-label">
+                            Your Message
+                        </label>
+                        
+                        <textarea class="form-control" aria-label="Your Message" id="messageTextarea">
+                        </textarea>
+                    </div>
+
+                    <div class="mb-3 form-check">
+                        <!-- Just using the default values for the attributes  -->
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">
+                            Receive an update about our new courses!
+                        </label>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">
+                        Send Message
+                    </button>
+                </form>
+            </div>
+
+            <div class="col-md-6">
+                <h2 class="text-center">Contact Info</h2>
+                
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item my-2">
+                        
+                        <span class="fw-bold">Our Location:</span>
+                        5233, Dundas Street, ON, Toronto
+                    </li>
+
+                    <li class="list-group-item my-2">
+                        <span class="fw-bold">General Enquiry Contact Number:</span>
+                        06-41-06-47-59
+                    </li>
+
+                    <li class="list-group-item my-2">
+                        <span class="fw-bold">Student Care Centre Number:</span>
+                        06-41-06-47-59
+                    </li>
+
+                    <li class="list-group-item my-2">
+                        <span class="fw-bold">General Enquiry Email:</span>
+                        info@WorkoutFamily.fr
+                    </li>
+
+                    <li class="list-group-item my-2">
+                        <span class="fw-bold">Registration Email:</span>
+                        register@WorkoutFamily.fr
+                    </li>
+                </ul>
+
+                <div class="text-center mt-3">
+                    <a href="#" class="btn btn-secondary">
+                        <i class="bi-linkedin"></i>
+                    </a>
+                    <a href="#" class="btn btn-secondary">
+                        <i class="bi-github"></i>
+                    </a>
+                    <a href="#" class="btn btn-secondary">
+                        <i class="bi-facebook"></i>
+                    </a>
+                    <a href="#" class="btn btn-secondary">
+                        <i class="bi-twitter"></i>
+                    </a>
+                </div>
+            </div>
+        </div> <!-- end div.row -->
+    </section> <!-- end section#contact -->
+
+    
+    <section id="subscribe" class="bg-info text-light mt-3 p-4 text-center">
+        <div class="container">
+            <!-- No need for Row and Columns classes here -->
+            <h3>
+                Subscribe to our monthly newsletter to receive the updated news and events.
+            </h3>
+            <div class="input-group mb-3 rounded w-75 m-auto">
+               
+                <input type="text" class="form-control" placeholder="Your Email" aria-label="Recipient's username"
+                    aria-describedby="Recipient's username">
+                <button class="btn btn-dark bg-gradient" type="button" id="btn-subscribe">
+                    Subscribe
+                </button>
+            </div>
+        </div> <!-- end div.container -->
+    </section> <!-- end section#subscribe -->
+
+    
+    <footer class="bg-light p-5 pb-0 text-center">
+        
+        <h1 class="display-4">Do adaptive session</h1>
+        
+        <p class="lead font-italic font-weight-bold fs-3">
+            Be the best of yourself each day !
+        </p>
+
+        <p class="mt-3 border-top">
+            Copyright &copy; 2024 Workout Family - We are a big a family in the world of sport
+        </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
